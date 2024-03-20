@@ -55,9 +55,9 @@ function App() {
         <Box title="Computer" item={computerSelect} result={result} />
       </div>
       <div className="main">
-        <button onClick={() => play("scissors")}>가위</button>
-        <button onClick={() => play("rock")}>바위</button>
-        <button onClick={() => play("paper")}>보</button>
+        <button className="button" onClick={() => play("scissors")}>가위</button>
+        <button className="button" onClick={() => play("rock")}>바위</button>
+        <button className="button" onClick={() => play("paper")}>보</button>
       </div>
     </div>
   );
