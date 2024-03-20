@@ -6,15 +6,15 @@ import Box from "./component/Box";
 const choice = {
   rock: {
     name: "Rock",
-    img: "./assets/바위.jpeg",
+    img: "https://media.istockphoto.com/photos/stone-pebble-gray-picture-id1288973456?b=1&k=20&m=1288973456&s=170667a&w=0&h=GBGgp4yrZv4ooDBws8yHF24sJ3rkEpObYsBWpVNKFT8=",
   },
   scissors: {
     name: "Scissors",
-    img: "./assets/가위.jpeg",
+    img: "https://www.ikea.com/kr/en/images/products/sy-scissors__0112301_pe263788_s5.jpg?f=s",
   },
   paper: {
     name: "Paper",
-    img: "./assets/보.jpeg",
+    img: "https://www.collinsdictionary.com/images/full/paper_111691001.jpg",
   },
 };
 function App() {
