@@ -69,9 +69,9 @@ export default class App extends Component {
           />
         </div>
         <div className="main">
-          <button onClick={() => this.play("scissors")}>가위</button>
-          <button onClick={() => this.play("rock")}>바위</button>
-          <button onClick={() => this.play("paper")}>보</button>
+          <button className="btn" onClick={() => this.play("scissors")}>가위</button>
+          <button className="btn" onClick={() => this.play("rock")}>바위</button>
+          <button className="btn" onClick={() => this.play("paper")}>보</button>
         </div>
       </div>
     );
