@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import BoxClass from "./component/BoxClass";
+import Box from "./component/Box";
 
 const choice = {
   rock: {
@@ -17,7 +17,7 @@ const choice = {
   },
 };
 
-export default class AppClass extends Component {
+export default class App extends Component {
   constructor() {
     super();
     this.state = {
@@ -57,12 +57,12 @@ export default class AppClass extends Component {
     return (
       <div>
         <div className="main">
-          <BoxClass
+          <Box
             title="You"
             item={this.state.userSelect}
             result={this.state.result}
           />
-          <BoxClass
+          <Box
             title="Computer"
             item={this.state.computerSelect}
             result={this.state.result}

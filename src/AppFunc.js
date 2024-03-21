@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Box from "./component/BoxFunc";
+import BoxFunc from "./component/BoxFunc";
 
 
 const choice = {
@@ -51,8 +51,8 @@ function App() {
   return (
     <div>
       <div className="main">
-        <Box title="You" item={userSelect} result={result} />
-        <Box title="Computer" item={computerSelect} result={result} />
+        <BoxFunc title="You" item={userSelect} result={result} />
+        <BoxFunc title="Computer" item={computerSelect} result={result} />
       </div>
       <div className="main">
         <button className="btn" onClick={() => play("scissors")}>가위</button>

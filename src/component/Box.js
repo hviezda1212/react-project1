@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class BoxClass extends Component {
+export default class Box extends Component {
   constructor() {
     super();
     this.result = "";
