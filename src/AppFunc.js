@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Box from "./component/Box";
+import Box from "./component/BoxFunc";
 
 
 const choice = {
