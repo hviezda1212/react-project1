@@ -3,7 +3,7 @@ import "./App.css";
 import Box from "./component/Box";
 
 const test;
-const test2;
+const test33;
 
 const choice = {
   rock: {
