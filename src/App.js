@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./App.css";
 import Box from "./component/Box";
 
+const test;
+
 const choice = {
   rock: {
     name: "Rock",
